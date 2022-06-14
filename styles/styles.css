@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  display: flex;
+  background-color: beige;
+  border-bottom: 5px solid;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .header-nav .header-nav__items {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.header .header-nav .header-nav__items li {
+  display: inline-block;
+  list-style: none;
+  border: 2px;
+  margin-right: 2rem;
+}
+
+.header .header-logo {
+  margin-left: 2rem;
+}
+
+.header .header-logo img {
+  width: 56px;
+  height: 73px;
+}
+
+.header h1 {
+  font-size: 4rem;
+  font-style: oblique;
+  padding: 1rem;
+  margin-right: auto;
+  margin-left: 1.5rem;
+  text-align: center;
+}
+
+.header .header-nav .header-nav__items .header-nav__SchecterLogo a img {
+  width: 131px;
+  height: 62px;
+  margin-bottom: 3px;
+}
+.header .header-nav .header-nav__items .header-nav__GibsonLogo a img {
+  width: 102px;
+  height: 69px;
+}
+.header .header-nav .header-nav__items .header-nav__FenderLogo a img {
+  width: 128px;
+  height: 72px;
+}
+.header .header-nav .header-nav__items .header-nav__JacksonLogo a img {
+  width: 179px;
+  height: 68px;
+}
+.header .header-nav .header-nav__items .header-nav__IbanezLogo a img {
+  width: 179px;
+  height: 44px;
+  margin-bottom: 3px;
+}
+
+.content .aside {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  width: 15%;
+  height: auto;
+  background-color: rebeccapurple;
+}
+
+.content .aside .content-aside__Accesorios {
+  background-color: white;
+  border: 2px;
+  border-style: solid;
+  border-radius: 3%;
+}
+.content .aside .content-aside__Bajos {
+  background-color: white;
+  border: 2px;
+  border-style: solid;
+  border-radius: 3%;
+}
+.content .aside .content-aside__Baterias {
+  background-color: white;
+  border: 2px;
+  border-style: solid;
+  border-radius: 3%;
+}
+.content .aside .content-aside__Guitarras {
+  background-color: white;
+  border: 2px;
+  border-style: solid;
+  border-radius: 3%;
+  box-shadow: 20px;
+}
+.content .aside .content-aside__Ropa {
+  background-color: white;
+  border: 2px;
+  border-style: solid;
+  border-radius: 3%;
+}
+.footer {
+  width: 100%;
+  background-color: black;
+  margin: auto;
+  position: absolute;
+}
